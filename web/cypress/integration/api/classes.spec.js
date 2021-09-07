@@ -24,10 +24,9 @@ context("Classes endpoint", () => {
 				]
 			}
 		}).then((response) => {
-			//asserções da resposta
 			expect(response.body).to.not.be.null
 			expect(response.status).to.eq(201)
-			}) 
+		}) 
 
 		
 		})
