@@ -25,11 +25,8 @@ context("Classes endpoint", () => {
 			}
 		}).then((response) => {
 			//asserções da resposta
-			expect(response.status).to.eq(201)
 			expect(response.body).to.not.be.null
-			expect(response.body).to.have.property('schedule','class_id')
-
-			
+			expect(response.status).to.eq(201)
 			}) 
 
 		
