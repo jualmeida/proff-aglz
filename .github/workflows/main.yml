@@ -27,4 +27,3 @@ jobs:
           install: false
           start: npm run start:ci
           wait-on: 'http://localhost:3000'
-    
